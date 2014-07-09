@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A34B1E9-2FD6-4916-9CC5-F2BD2E479363}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Principal.Window</RootNamespace>
+    <AssemblyName>Principal.Window</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PuntoVenta.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Principal.Window.App</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Fluent">
+      <HintPath>..\packages\Fluent.Ribbon.2.0.2\lib\net40\Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\packages\Fluent.Ribbon.2.0.2\lib\net40\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Images\Nuevoblanco.icns" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PuntoVenta.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1370906701_button_cancel.png" />
+    <Resource Include="Images\1370906848_document_text_cancel.png" />
+    <Resource Include="Images\1370906907_25017.ico" />
+    <Resource Include="Images\1370906908_x-office-spreadsheet-template.png" />
+    <Resource Include="Images\1370906992_1709.ico" />
+    <Resource Include="Images\1370906992_button_cancel.png" />
+    <Resource Include="Images\1370907165_6598.ico" />
+    <Resource Include="Images\1370907166_package.png" />
+    <Resource Include="Images\1370907173_filesaveas.png" />
+    <Resource Include="Images\1370907450_9241.ico" />
+    <Resource Include="Images\1370907644_print_printer.png" />
+    <Resource Include="Images\1370922990_49590.ico" />
+    <Resource Include="Images\1370923817_104619.ico" />
+    <Resource Include="Images\1370928968_52656.ico" />
+    <Resource Include="Images\1370929005_52645.ico" />
+    <Resource Include="Images\1374448009_filesaveas.png" />
+    <Resource Include="Images\1374455331_Save.png" />
+    <Resource Include="Images\1374456444_invoice.png" />
+    <Resource Include="Images\1374456449_87438.ico" />
+    <Resource Include="Images\1374457036_Add-Male-User.png" />
+    <Resource Include="Images\1374457041_49576.ico" />
+    <Resource Include="Images\1374457283_Cancel.png" />
+    <Resource Include="Images\1374457556_RecycleBin-Full.png" />
+    <Resource Include="Images\1374457557_33898.ico" />
+    <Resource Include="Images\1374457661_document_add.png" />
+    <Resource Include="Images\1374457662_48755.ico" />
+    <Resource Include="Images\1374458481_search_b.png" />
+    <Resource Include="Images\1374458706_search_b.png" />
+    <Resource Include="Images\1374459029_Find_Search.png" />
+    <Resource Include="Images\1374459166_xmag.png" />
+    <Resource Include="Images\1374459168_8826.ico" />
+    <Resource Include="Images\1374459494_Close_Box_Red.png" />
+    <Resource Include="Images\1374459581_34217.ico" />
+    <Resource Include="Images\1375226656_puzzle.png" />
+    <Resource Include="Images\1375226659_67324.ico" />
+    <Resource Include="Images\1377832852_50839.ico" />
+    <Resource Include="Images\1377832854_fingerprint_reader.png" />
+    <Resource Include="Images\1377832854_palet02.png" />
+    <Resource Include="Images\1377832960_62581.ico" />
+    <Resource Include="Images\1377832961_handle4.png" />
+    <Resource Include="Images\1377833192_7240.ico" />
+    <Resource Include="Images\1377833215_kthememgr.png" />
+    <Resource Include="Images\1404524075_Item_3D.png" />
+    <Resource Include="Images\1404524078_104619.ico" />
+    <Resource Include="Images\1404875571_Sales-by-Payment-Method-rep.png" />
+    <Resource Include="Images\1404875573_49616.ico" />
+    <Resource Include="Images\1404875632_sign-up.png" />
+    <Resource Include="Images\1404875634_49622.ico" />
+    <Resource Include="Images\1404875670_product-sales-report.png" />
+    <Resource Include="Images\1404875671_49607.ico" />
+    <Resource Include="Images\1404875692_reports.png" />
+    <Resource Include="Images\1404875693_49615.ico" />
+    <Resource Include="Images\1404875706_Sales-by-Payment-Method-rep.png" />
+    <Resource Include="Images\1404875707_49616.ico" />
+    <Resource Include="Images\1404875716_distributor-report.png" />
+    <Resource Include="Images\1404875717_49583.ico" />
+    <Resource Include="Images\1404875748_49631.ico" />
+    <Resource Include="Images\1404875752_wheel.png" />
+    <Resource Include="Images\1404875773_49602.ico" />
+    <Resource Include="Images\1404875775_packing.png" />
+    <Resource Include="Images\1404875801_49602.ico" />
+    <Resource Include="Images\1404875802_packing.png" />
+    <Resource Include="Images\1404875894_fork3.png" />
+    <Resource Include="Images\1404875900_62574.ico" />
+    <Resource Include="Images\1404875906_fork3.png" />
+    <Resource Include="Images\1404875908_62574.ico" />
+    <Resource Include="Images\1404875956_49616.ico" />
+    <Resource Include="Images\1404875958_Sales-by-Payment-Method-rep.png" />
+    <Resource Include="Images\1404875998_Sales-by-Payment-Method-rep.png" />
+    <Resource Include="Images\1404875999_49616.ico" />
+    <Resource Include="Images\1404876022_handle4.png" />
+    <Resource Include="Images\1404876024_62581.ico" />
+    <Resource Include="Images\1404876497_71064.ico" />
+    <Resource Include="Images\1404876501_Trash.png" />
+    <Resource Include="Images\bodega.png" />
+    <Resource Include="Images\bodegas.ico" />
+    <Resource Include="Images\bodegas.png" />
+    <Resource Include="Images\buscar.ico" />
+    <Resource Include="Images\caja.ico" />
+    <Resource Include="Images\cajon.png" />
+    <Resource Include="Images\calculadora.ico" />
+    <Resource Include="Images\camionproveedor.png" />
+    <Resource Include="Images\camproveedor.ico" />
+    <Resource Include="Images\cancelar.ico" />
+    <Resource Include="Images\carro de compras.ico" />
+    <Resource Include="Images\carro de compras.png" />
+    <Resource Include="Images\cliente.ico" />
+    <Resource Include="Images\cliente.png" />
+    <Resource Include="Images\crFlag.png" />
+    <Resource Include="Images\crflagpng.png" />
+    <Resource Include="Images\facturacion.ico" />
+    <Resource Include="Images\flagCR.ico" />
+    <Resource Include="Images\flagCR.png" />
+    <Resource Include="Images\Guardar.ico" />
+    <Resource Include="Images\header.bmp" />
+    <Resource Include="Images\imprimir.ico" />
+    <Resource Include="Images\libreria.png" />
+    <Resource Include="Images\libreriaico.ico" />
+    <Resource Include="Images\nuevo.png" />
+    <Resource Include="Images\PuntoVenta.ico" />
+    <Resource Include="Images\sales.ico" />
+    <Resource Include="Images\sales.png" />
+    <Resource Include="Images\shelf.ico" />
+    <Resource Include="Images\stock.png" />
+    <Resource Include="Images\stockico.ico" />
+    <Resource Include="Images\Usuarios.ico" />
+    <Resource Include="Images\venta.png" />
+    <Resource Include="Images\ventaico.ico" />
+    <Resource Include="Images\ventas.ico" />
+    <Resource Include="Images\ventas.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
