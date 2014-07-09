@@ -1,0 +1,99 @@
+﻿<Fluent:RibbonWindow x:Class="mayer.Principal.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Fluent="clr-namespace:Fluent;assembly=Fluent"
+    Title="Fluent.Sample.Foundation" Width="757" Height="454" WindowState="Maximized">
+    <Grid>
+        <Fluent:Ribbon>
+            <!--Backstage-->
+            <Fluent:Ribbon.Menu>
+                <Fluent:Backstage>
+                </Fluent:Backstage>
+            </Fluent:Ribbon.Menu>
+            <Fluent:RibbonTabItem Header="Configuración">
+                <!--Group box Configuracion-->
+                <Fluent:RibbonGroupBox Header="Configuración">
+                    <Fluent:Button Name="btnUsuarios" Header="Usuarios" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" Click="btnUsuarios_Click_1" />
+                    <Fluent:Button Name="btnUsuaris" Header="Usuarios" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" Click="btnUsuarios_Click" />
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <!--Ingresos-->
+            <Fluent:RibbonTabItem Header="Ingresos">
+                <!--Group box Caja-->
+                <Fluent:RibbonGroupBox Header="Control de Caja">
+                    <Fluent:Button Name="btnAperturaCaja" Header="Apertura" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btnArqueoCaja" Header="Arqueo" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btnCierreCaja" Header="Cierre" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                    <Fluent:Button Name="btnEntradaDinero" Header="Entrada de dinero" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                </Fluent:RibbonGroupBox>
+                <!--Group box Facturacion-->
+                <Fluent:RibbonGroupBox Header="Facturación a clientes">
+                    <Fluent:Button Name="btnClientes" Header="Clientes" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btnAbonoFactura" Header="Abono Factura" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btnApartados" Header="Apartados" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                    <Fluent:Button Name="btnCotizacion" Header="Cotización" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btnFacturacion" Header="Facturación" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                    <Fluent:Button Name="btnNotaCreditoF" Header="Nota de Credito" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btnNotaDebitoF" Header="Nota de Debito" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <!--Inventario-->
+            <Fluent:RibbonTabItem Header="Inventarios">
+                <!--Group box Inventario-->
+                <Fluent:RibbonGroupBox Header="Inventario">
+                    <Fluent:Button Name="btnAjusteInventario" Header="Ajuste Inventario" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                    <Fluent:Button Name="btnBodegas" Header="Bodegas" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btninventario" Header="Catalogo Inventario" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btnfamilias" Header="Familias" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btnMarcas" Header="Marcas" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                    <Fluent:Button Name="btnPresentaciones" Header="Presentaciones" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btnTraslados" Header="Traslado entre Bodegas" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                    <Fluent:Button Name="btnTomaFisica" Header="Toma Fisica" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                    <Fluent:Button Name="btnUbicaciones" Header="Ubicaciones" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <!--Egresos-->
+            <Fluent:RibbonTabItem Header="Egresos">
+                <!--Group box Compras-->
+                <Fluent:RibbonGroupBox Header="Compras a proveedores">
+                    <Fluent:Button Name="btnProveedores" Header="Proveedores" Icon="\Images\camionproveedor.png" 
+                     LargeIcon="\Images\camionproveedor.png" />
+                    <Fluent:Button Name="btnCompras" Header="Factura de Compra" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                    <Fluent:Button Name="btnOrdenCompraM" Header="Orden Compra Manual" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btnNotaCreditoC" Header="Nota de Credito" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                    <Fluent:Button Name="btnNotaDebitoC" Header="Nota de Debito" Icon="Images\Green.png" 
+                     LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Name="btnAbonoCuenta" Header="Abono a Cuenta" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                    <Fluent:Button Name="btnSalidaDinero" Header="Salida de Dinero" Icon="Images\Gray.png"
+                    LargeIcon="Images\GrayLarge.png" />
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+        </Fluent:Ribbon>
+    </Grid>
+</Fluent:RibbonWindow>

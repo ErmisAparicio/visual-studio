@@ -6,10 +6,6 @@ D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\bin\De
 D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\bin\Debug\Fluent.pdb
 D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\bin\Debug\Fluent.xml
 D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\MainWindow.baml
-D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\App.baml
-D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\MainWindow.g.cs
-D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\App.g.cs
 D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Principal.Window_MarkupCompile.cache
 D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Principal.Window.g.resources
 D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Principal.Window.Form1.resources
@@ -18,3 +14,10 @@ D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x8
 D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Principal.Window.exe
 D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Principal.Window.pdb
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Principal\MainWindow.baml
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Principal\App.baml
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Principal\MainWindow.g.cs
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Principal\App.g.cs
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Principal.Window_Content.g.cs
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Usuario\frmUsuario.baml
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\obj\x86\Debug\Usuario\frmUsuario.g.cs

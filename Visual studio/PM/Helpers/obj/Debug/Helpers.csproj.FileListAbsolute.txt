@@ -1,0 +1,5 @@
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Helpers\bin\Debug\Helpers.dll
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Helpers\bin\Debug\Helpers.pdb
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Helpers\obj\Debug\ResolveAssemblyReference.cache
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Helpers\obj\Debug\Helpers.dll
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Helpers\obj\Debug\Helpers.pdb

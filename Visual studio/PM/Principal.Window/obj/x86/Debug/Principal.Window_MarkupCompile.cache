@@ -9,12 +9,12 @@ Principal.Window
 none
 false
 DEBUG;TRACE
-D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\App.xaml
-11151548125
-
-71767323959
+D:\Ermis\Documents\GitHub\visual-studio\Visual studio\PM\Principal.Window\Principal\App.xaml
+2507315094
+1-1018590945
+61498197811
 1654822195
-MainWindow.xaml;
+Usuario\frmUsuario.xaml;Principal\MainWindow.xaml;
 
 False
 
